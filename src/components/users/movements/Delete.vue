@@ -1,19 +1,8 @@
 <template>
-    <div class="card p-4 text-center" style="width: 60rem;">
+    <div class="container" style="width: 60rem;">
         <div class="row">
             <div class="col"></div>
             <div class="card p-3 text-center" style="width: 35rem;">
-
-                <div class="card">
-                    <div class="col">
-                        <div class="col cerrar">
-                            <img src="@/assets/close-icon.svg" alt="close" @click="cerrar">
-                        </div>
-                        <div class="col">
-                            <h5>Eliminación Movimiento</h5>
-                        </div>
-                    </div>
-                </div>
                 <div class="card">
                     <div class="col p-3">
                         <h4>Movimiento!</h4>

@@ -6,7 +6,7 @@ const router = createRouter({
   routes: [
     { path: '/', component: Login, name: 'login' },
     {
-      path: '/user/:userId(\\d+)',
+      path: '/user/:userId',
       component: () => import('../components/users/Index.vue'),
       name: 'user',
       props: (route) => {
@@ -16,7 +16,7 @@ const router = createRouter({
       },
     },
     {
-      path: '/user/:userId(\\d+)/delmovement/:movementId(\\d+)',
+      path: '/user/:userId/delmovement/:movementId',
       component: () => import('../components/users/movements/Delete.vue'),
       name: 'deletemovement',
       props: (route) => {
@@ -28,7 +28,7 @@ const router = createRouter({
       }
     },
     {
-      path: '/user/addmovement/:userId(\\d+)',
+      path: '/user/addmovement/:userId',
       component: () => import('../components/users/movements/New.vue'),
       name: 'addmovement',
       props: (route) => {
