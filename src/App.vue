@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="card text-center p-2" style="width: 61rem;">
+  <div class="container" style="width: 61rem;">
     <router-view />
   </div>
 

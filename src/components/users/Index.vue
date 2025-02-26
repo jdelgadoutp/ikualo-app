@@ -38,6 +38,7 @@
                 </tbody>
             </table>
         </div>
+
     </div>
 </template>
 
@@ -122,8 +123,8 @@ export default {
 
 .agregar {
     margin: 0;
-    width: 8%;
-    height: 8%;
+    width: 6%;
+    height: 6%;
     border-radius: 25%;
     padding: 10px;
 }
@@ -147,4 +148,5 @@ export default {
     margin-top: 10px;
     cursor: pointer;
 }
+
 </style>
